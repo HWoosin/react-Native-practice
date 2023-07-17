@@ -37,6 +37,8 @@ export default function App() {
   }
 
   return (
+    <>
+    <StatusBar style="light"/>
     <View style={styles.appContainer}>
       <Button 
         title="할 일 추가하기!" 
@@ -65,6 +67,8 @@ export default function App() {
         ></FlatList>
       </View>
     </View>
+    </>
+    
   );
 }
 
